@@ -1,0 +1,139 @@
+/* nice wrapper for the Modify Themes section */
+#admin_form_wrapper {
+	border: 1px solid #CCCCCC;
+	border-radius: 0;
+}
+.description, .information {
+	margin-top: 4px;
+}
+.popup_window.description {
+	margin: 12% auto;
+}
+#support_resources, #credits_sections {
+	margin: 0;
+}
+#manage_boards, #admincenter, #admin_content {
+	margin-top: 0;
+	padding-top: 5px;
+}
+#admincenter>#admin_form_wrapper {
+	margin-top: 0;
+}
+
+/* Styles for the manage boards section.
+------------------------------------------------- */
+#manage_boards h2 {
+	margin-bottom: 6px;
+}
+#manage_boards .post_group, #manage_boards .regular_members {
+	border-bottom: 1px dotted #000;
+}
+.ui-state-highlight {
+	background-color: #f5f5f5;
+	border: 1px dashed #298299;
+}
+
+/* Styles for the manage membergroups.
+------------------------------------------------- */
+.select_category, .select_all_box {
+	font-style: italic;
+	border-top: 1px dashed #CCCCCC;
+	border-bottom: 1px dashed #CCCCCC;
+}
+
+/* jQuery Dialog
+------------------------------------------------- */
+.ui-dialog {
+	border: 1px solid #999;
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
+	background-color: #f5f5f5;
+	border-radius: 4px 4px 0 0;
+}
+.ui-dialog .ui-dialog-titlebar {
+	background-color: #fafafa;
+	border-radius: 4px 4px 0 0;
+}
+.ui-widget-overlay {
+	background-color: #000;
+	opacity: 0.3;
+}
+
+/* Styles for the quick search bar */
+#quick_search {
+	font-size: 0.786em;
+}
+#quick_search .input_text, #quick_search select, #quick_search .button_submit {
+	margin: 5px 0 0 4px;
+}
+#quick_search .icon {
+	margin: 12px 0 0 4px;
+}
+
+/* alternate row colors on Modify Themes,Copy a template */
+.theme_options .windowbg2 {
+	background: #fcfcfc;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.theme_options .windowbg {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+/* the help ? icon in various spots */
+a.help .icon {
+	margin: 0;
+	padding: 0 6px 2px 0;
+	vertical-align: middle;
+}
+.settings .help .icon {
+	margin-left: 0;
+	 position: relative;
+	float: left;
+}
+.hdicon.help:before {
+	margin: -4px 0 0;
+}
+
+/*	$ADMIN		*/
+#personal_messages,
+#admin_main_section, div.quick_tasks, #mod_main_section, #support_credits, #admin_newsletters, #core_features, #generate_reports_type, #groupForm, #mailqueue_stats, #manage_maintenance, #new_group, #view_group, #admin_form_wrapper, .action_admin .generic_list_wrapper {
+	margin-top: 0;
+	padding: 5px 5px 0 5px;
+	border: 1px solid #ddd;
+}
+
+#admin_content .windowbg, #admin_content .windowbg2 {
+	border: 1px solid #ddd;
+}
+.modblock_left, .modblock_right {
+		width: 49.5%;
+}
+/* Fix for admin page on smaller screen */
+@media screen and (max-width: 64em) {
+}
+@media screen and (max-width: 50em) {
+	#main_content_section, #admin_main_section , #admincenter .content {
+		padding: 1em 0 0;
+	}
+	dd {
+		padding-left: 3% !important;
+	}
+	#quick_tasks li, #live_news, #supportVersionsTable, .modblock_left, .modblock_right, #ourAnnouncements dd, #ourAnnouncements dt {
+		width: 100% !important;
+		padding: 0;
+	}
+}
+@media screen and (max-width: 33.750em) {
+	body {
+		padding-top: 35px;
+	}
+	#button_unreadreplies {
+		display:none;
+		margin: 0;
+		padding: 0;
+	}
+	#button_admin {
+		display: block;
+	}
+}
